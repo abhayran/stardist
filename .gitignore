@@ -22,3 +22,7 @@ htmlcov/
 config.json
 thresholds.json
 examples/**/data
+
+*.csv
+*.tif
+toy.ipynb

@@ -1,0 +1,14 @@
+mlflow_uri: "http://localhost:2006/"
+mlflow_experiment_name: "monai"
+mlflow_run_name: "first exp"
+
+orthopedia_dir: "/mnt/dss/dssfs04/pn25ke/pn25ke-dss-0001/orthopedia"
+num_tiles_to_sample: 25
+
+device_id: 0
+log_model_every: 5000
+train_batch_size: 4
+val_batch_size: 8
+num_epochs: 5000
+learning_rate: 0.00003
+dropout: 0.3
